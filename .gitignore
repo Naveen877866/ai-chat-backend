@@ -1,0 +1,17 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
