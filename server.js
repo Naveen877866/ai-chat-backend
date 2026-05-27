@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.json({ status: "ok", message: "AI chat backend is running" });
+    res.json({ status: "ok", message: "AI chat backend is running", version: 2 });
 });
 
 app.post("/chat", async (req, res) => {
